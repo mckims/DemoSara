@@ -10,14 +10,14 @@ on:
       - main
 
 jobs:
-  action 1:
+  action1:
     name: Checkout Action
     runs-on: ubuntu-latest
     steps: 
       - name: Step One - Checkout Action
         uses: actions/checkout@v4
 
-  action 2:
+  action2:
     name: Java SetUp Action (Setting up JDK 11 for x64)
     runs-on: ubuntu-latest
     steps:
